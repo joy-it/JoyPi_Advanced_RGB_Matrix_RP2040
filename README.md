@@ -50,7 +50,9 @@ Function Codes (FunctionEnum)
 ### Bulk Pixel Data Transfer
 For SENDALLPIXRGB0 through SENDALLPIXRGB5 (codes 10-15):
 > Each command transmits 32 bytes of RGB data
+>
 > Total of 6 blocks, accumulating 192 bytes (64 pixels × 3 colors)
+>
 > Upon receiving SENDALLPIXRGB5, the entire matrix automatically refreshes
 
 ## File Structure
